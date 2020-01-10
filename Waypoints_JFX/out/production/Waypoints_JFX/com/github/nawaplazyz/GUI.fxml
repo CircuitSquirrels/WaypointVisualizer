@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="300.0" prefWidth="500.0" style="-fx-background-color: #454545;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.github.nawaplazyz.Controller">
+   <children>
+      <TextField fx:id="YPos" layoutX="35.0" layoutY="105.0" prefHeight="39.0" prefWidth="165.0" promptText="Y Position">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="XPos" layoutX="35.0" layoutY="198.0" prefHeight="39.0" prefWidth="165.0" promptText="X Position">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <Button fx:id="addWaypoint" layoutX="308.0" layoutY="196.0" mnemonicParsing="false" onAction="#Handler" style="-fx-background-color: #a9a9a9;" text="Add Waypoint" textFill="#454545">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
